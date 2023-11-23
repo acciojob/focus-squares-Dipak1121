@@ -8,7 +8,7 @@ for ( let i = 0; i < squares.length; i++ ){
 function onMouseEnter(event){
 	for ( let i = 0; i < squares.length; i++ ){
 	if(squares[i] != event.target){
-		squares[i].style.backgroundColor = "#6F4E37";
+		squares[i].style.backgroundColor = "rgb(111, 78, 55)";
 	}
 }
 }
